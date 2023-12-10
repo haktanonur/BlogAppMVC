@@ -44,6 +44,7 @@ namespace BlogApp.Data.Concrete.EfCore
                             Title = "ASP.NET Core",
                             Content = "Asp.net core course",
                             IsActive = true,
+                            Image = "3.jpg",
                             PublishedOn = DateTime.Now.AddDays(-10),
                             Tags = context.Tags.Take(3).ToList(),
                             UserId = 1,
@@ -56,6 +57,7 @@ namespace BlogApp.Data.Concrete.EfCore
                             Title = "Php",
                             Content = "Php course",
                             IsActive = true,
+                            Image = "1.jpg",
                             PublishedOn = DateTime.Now.AddDays(-20),
                             Tags = context.Tags.Take(2).ToList(),
                             UserId = 1
@@ -64,6 +66,7 @@ namespace BlogApp.Data.Concrete.EfCore
                             Title = "Django",
                             Content = "Django cours",
                             IsActive = true,
+                            Image = "2.jpg",
                             PublishedOn = DateTime.Now.AddDays(-30),
                             Tags = context.Tags.Take(4).ToList(),
                             UserId = 2
@@ -73,6 +76,7 @@ namespace BlogApp.Data.Concrete.EfCore
                             Title = "ReactJS",
                             Content = "React course",
                             IsActive = true,
+                            Image = "3.jpg",
                             PublishedOn = DateTime.Now.AddDays(-40),
                             Tags = context.Tags.Take(4).ToList(),
                             UserId = 2
@@ -82,6 +86,7 @@ namespace BlogApp.Data.Concrete.EfCore
                             Title = "AngularJS",
                             Content = "Angular course",
                             IsActive = true,
+                            Image = "1.jpg",
                             PublishedOn = DateTime.Now.AddDays(-50),
                             Tags = context.Tags.Take(4).ToList(),
                             UserId = 2
@@ -91,6 +96,7 @@ namespace BlogApp.Data.Concrete.EfCore
                             Title = "Web Design",
                             Content = "Web design course",
                             IsActive = true,
+                            Image = "2.jpg",
                             PublishedOn = DateTime.Now.AddDays(-60),
                             Tags = context.Tags.Take(4).ToList(),
                             UserId = 2
