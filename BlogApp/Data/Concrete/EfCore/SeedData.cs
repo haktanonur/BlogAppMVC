@@ -19,11 +19,11 @@ namespace BlogApp.Data.Concrete.EfCore
                 if(!context.Tags.Any())
                 {
                     context.Tags.AddRange(
-                        new Tag { Text = "web programlama"},
-                        new Tag { Text = "backend"},
-                        new Tag { Text = "frontend"},
-                        new Tag { Text = "fullstack"},
-                        new Tag { Text = "php"}
+                        new Tag { Text = "web programlama", Url = "web-programlama"},
+                        new Tag { Text = "backend", Url = "backend"},
+                        new Tag { Text = "frontend", Url = "frontend"},
+                        new Tag { Text = "fullstack", Url = "fullstack"},
+                        new Tag { Text = "php", Url = "php"}
                     );
                     context.SaveChanges();
                 }
@@ -43,6 +43,7 @@ namespace BlogApp.Data.Concrete.EfCore
                         new Post {
                             Title = "ASP.NET Core",
                             Content = "Asp.net core course",
+                            Url = "aspnet-core",
                             IsActive = true,
                             Image = "3.jpg",
                             PublishedOn = DateTime.Now.AddDays(-10),
@@ -56,6 +57,7 @@ namespace BlogApp.Data.Concrete.EfCore
                         new Post {
                             Title = "Php",
                             Content = "Php course",
+                            Url = "php",
                             IsActive = true,
                             Image = "1.jpg",
                             PublishedOn = DateTime.Now.AddDays(-20),
@@ -65,6 +67,7 @@ namespace BlogApp.Data.Concrete.EfCore
                         new Post {
                             Title = "Django",
                             Content = "Django cours",
+                             Url = "django",
                             IsActive = true,
                             Image = "2.jpg",
                             PublishedOn = DateTime.Now.AddDays(-30),
@@ -75,6 +78,7 @@ namespace BlogApp.Data.Concrete.EfCore
                         new Post {
                             Title = "ReactJS",
                             Content = "React course",
+                            Url = "react",
                             IsActive = true,
                             Image = "3.jpg",
                             PublishedOn = DateTime.Now.AddDays(-40),
@@ -85,6 +89,7 @@ namespace BlogApp.Data.Concrete.EfCore
                         new Post {
                             Title = "AngularJS",
                             Content = "Angular course",
+                            Url = "angular",
                             IsActive = true,
                             Image = "1.jpg",
                             PublishedOn = DateTime.Now.AddDays(-50),
@@ -95,6 +100,7 @@ namespace BlogApp.Data.Concrete.EfCore
                         new Post {
                             Title = "Web Design",
                             Content = "Web design course",
+                            Url = "web-design",
                             IsActive = true,
                             Image = "2.jpg",
                             PublishedOn = DateTime.Now.AddDays(-60),
