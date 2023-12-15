@@ -18,6 +18,17 @@ namespace BlogApp.Controllers
             _userRepository = userRepository;
         }
 
+
+        public IActionResult Login()
+        {
+            if(User.Identity!.IsAuthenticated)
+            {
+                return RedirectToAction("Index","Posts");
+            }
+            return View();
+        }
+
+        [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel model)
         {
             if(ModelState.IsValid)
@@ -60,6 +71,12 @@ namespace BlogApp.Controllers
             }
 
             return View(model);
+        }
+        
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Login");
         }
 
         
