@@ -42,6 +42,7 @@ namespace BlogApp.Data.Concrete.EfCore
                     context.Posts.AddRange(
                         new Post {
                             Title = "ASP.NET Core",
+                            Description = "Asp.net core course",
                             Content = "Asp.net core course",
                             Url = "aspnet-core",
                             IsActive = true,
@@ -56,6 +57,7 @@ namespace BlogApp.Data.Concrete.EfCore
                         },
                         new Post {
                             Title = "Php",
+                            Description = "Php course",
                             Content = "Php course",
                             Url = "php",
                             IsActive = true,
@@ -66,8 +68,9 @@ namespace BlogApp.Data.Concrete.EfCore
                         },
                         new Post {
                             Title = "Django",
+                            Description = "Django course",
                             Content = "Django cours",
-                             Url = "django",
+                            Url = "django",
                             IsActive = true,
                             Image = "2.jpg",
                             PublishedOn = DateTime.Now.AddDays(-30),
@@ -77,6 +80,7 @@ namespace BlogApp.Data.Concrete.EfCore
                         ,
                         new Post {
                             Title = "ReactJS",
+                            Description = "React course",
                             Content = "React course",
                             Url = "react",
                             IsActive = true,
@@ -88,6 +92,7 @@ namespace BlogApp.Data.Concrete.EfCore
                         ,
                         new Post {
                             Title = "AngularJS",
+                            Description = "Angular course",
                             Content = "Angular course",
                             Url = "angular",
                             IsActive = true,
@@ -99,6 +104,7 @@ namespace BlogApp.Data.Concrete.EfCore
                         ,
                         new Post {
                             Title = "Web Design",
+                            Description = "Web Design",
                             Content = "Web design course",
                             Url = "web-design",
                             IsActive = true,

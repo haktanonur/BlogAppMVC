@@ -65,6 +65,36 @@ namespace BlogApp.Controllers
                 avatar
             });
         }
+
+        public IActionResult Create(){
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(PostCreateViewModel model)
+        {
+            if(ModelState.IsValid)
+            {
+                 var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+                _postRepository.CreatePost(
+                    new Post {
+                        Title = model.Title,
+                        Description = model.Description,
+                        Content = model.Content,
+                        Url = model.Url,
+                        UserId = int.Parse(userId ?? ""),
+                        PublishedOn = DateTime.Now,
+                        Image = "1.jpg",
+                        IsActive = false
+                    }
+                );
+
+                return RedirectToAction("Index");
+            }
+
+            return View();
+        }
     }
 }
 
