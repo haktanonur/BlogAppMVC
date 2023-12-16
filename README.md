@@ -9,6 +9,7 @@ The Blog Application, ASP.NET Core MVC, MySQL and Entity Framework uses are an i
 - User can edit their own posts.
 - User can delete their own posts.
 - User can comment on a post. (jQuery - AJAX Methods are used.)
+- User cannot share posts and comments without logging in
 - Users have a profile page.
 - Profile page displays the user's posts and comments.
 - Posts can be filtered by tags.
@@ -52,7 +53,7 @@ To get started with this project, you will need to have the following installed 
 
 - To download bootstrap files:
  ```bash
-    cd BlogApp/wwwroot/lib libman restore
+    cd BlogApp libman restore
  ```
 
 - To create migrations:
