@@ -9,6 +9,8 @@ The Blog Application, ASP.NET Core MVC, MySQL and Entity Framework uses are an i
 - User can edit their own posts.
 - User can delete their own posts.
 - User can comment on a post. (jQuery - AJAX Methods are used.)
+- Users have a profile page.
+- Profile page displays the user's posts and comments.
 - Posts can be filtered by tags.
 - There is an Admin role in the application. (Authorization)
 - Admin can perform all actions that users can. 
