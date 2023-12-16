@@ -67,3 +67,13 @@ To get started with this project, you will need to have the following installed 
     dotnet restore
     dotnet run
 ```
+
+![Screenshot 2023-12-17 015515](https://github.com/haktanonur/aspnetcore-mvc-blog-app/assets/69698425/c6472e73-5546-4ae8-bdc6-cab82dd5234a)
+![Screenshot 2023-12-17 015454](https://github.com/haktanonur/aspnetcore-mvc-blog-app/assets/69698425/f0e92d6f-4fcf-4038-b060-b7587579f0b5)
+![Screenshot 2023-12-17 015440](https://github.com/haktanonur/aspnetcore-mvc-blog-app/assets/69698425/2ba5dad9-3753-427e-a800-8477aee232d9)
+![Screenshot 2023-12-17 015428](https://github.com/haktanonur/aspnetcore-mvc-blog-app/assets/69698425/e65c57a6-cf12-4ef7-85e9-a09604943c01)
+![Screenshot 2023-12-17 015413](https://github.com/haktanonur/aspnetcore-mvc-blog-app/assets/69698425/935c0ea9-0d9d-425f-8798-7e9eabbc1c7b)
+![Screenshot 2023-12-17 015348](https://github.com/haktanonur/aspnetcore-mvc-blog-app/assets/69698425/8e84f785-6e13-40c5-b072-f6a17cf08ae2)
+![Screenshot 2023-12-17 015328](https://github.com/haktanonur/aspnetcore-mvc-blog-app/assets/69698425/075282fc-b864-4c11-a5ba-a8490e126cbc)
+![Screenshot 2023-12-17 015318](https://github.com/haktanonur/aspnetcore-mvc-blog-app/assets/69698425/8bdb6e97-9b12-4738-8bae-e8886856565c)
+
